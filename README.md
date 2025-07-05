@@ -1,22 +1,11 @@
-# 1er Parcial Aspectos Legales
+# 2do Parcial Aspectos Legales
 
 ---
 
 # Evaluaciones
 
 - [Banco de Datos](#bancos-de-datos)
-- [Aspectos Generales de la Ciencia Jurídica](#aspectos-generales-de-la-ciencia-jurídica)
-- [Estructura Constitucional](#estructura-constitucional)
-- [Hechos y Actos Jurídicos](#hechos-y-actos-jurídicos)
-- [Contratos Informaticos](#contratos-informaticos)
-- [Contratos Parte General](#contratos-parte-general)
-- [Propiedad Intelectual](#propiedad-intelectual)
-- [Primer Parcial de Aspectos Legales](#primer-parcial-aspectos-legales)
-- [Recuperatorio](#recuperatorio)
-- [Autoevaluacion - Parcial de prueba](#autoevaluacion---parcial-de-prueba)
-- [Autoevaluacion - Parcial de prueba 2](#autoevaluacion---parcial-de-prueba-2)
 
----
 
 ## Bancos de Datos
 
@@ -163,1352 +152,1129 @@ Las otras opciones son incorrectas porque:
 
 ---
 
-## Aspectos Generales de la Ciencia Jurídica
+## Licenciamiento de uso
 
-Primera Clase: en ella veremos el concepto de derecho, la diferencia entre derecho objetivo y subjetivo, las fuentes del derecho y las distintas divisiones, que desde el punto de vista académico se han intentado 
+**1) La licencia de uso propietaria o privativa está definida por**
 
-**1) La ciencia jurídica comprende el conjunto organizado de normas emanadas por un órgano competente**
+- [ ] La prohibición del acceso al código fuente  
+- [ ] El carácter oneroso  
+- [ ] La existencia de derechos de autor sobre el programa  
 
-- [ ] Verdadero  
-- [ ] Falso
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-5.png)
-
-**✅ Verdadero** ESTO ES MAS FALSO QUE LA MIERDA PERO BUENO
-
-> “el conjunto organizado de normas emanadas de un poder estatal competente, las cuales son percibidas por la población como obligatorias.”
-
-Esa es justamente la definición que adopta la ciencia jurídica para estudiar el derecho objetivo dentro de un sistema legal específico (como el argentino), por lo tanto la afirmación es **verdadera**.
-
-</details>
 
----
+![alt text](image.png)
 
-**2) El derecho real establece una relación entre dos personas**
+**✅ La prohibición del acceso al código fuente**
 
-- [ ] Verdadero  
-- [ ] Falso
+La característica distintiva de la **licencia de uso propietaria o privativa** no es su precio ni el hecho de que existan derechos de autor (que también existen en el software libre), sino la **prohibición del acceso y modificación del código fuente**.
 
-<details><summary>Respuesta</summary>
+Esto está claramente explicado en el texto:
 
-![alt text](/images/image-6.png)
+> “Tradicionalmente, las mismas otorgan al usuario la posibilidad de utilizar el programa tal cual fue entregado, **prohibiendo la modificación del mismo**. Tales licencias se conocen como **propietarias**.”
 
-**✅ Falso**
+Y más adelante se vincula con el acceso al código fuente:
 
-El **derecho real** no establece una relación entre dos personas, sino **una relación directa entre una persona y una cosa** (por ejemplo, la propiedad sobre un bien). Es un derecho que se ejerce *erga omnes* (frente a todos), y no entre partes específicas como sucede en los derechos personales u obligaciones.
+> “De lo expuesto surge claramente que, **para modificar el programa original, el usuario necesita el archivo de código fuente**, toda vez que el código objeto no permite su alteración por el usuario.”
 
-Esto se diferencia de los **derechos personales**, que **sí implican una relación entre personas**, como un contrato donde una parte exige algo a otra.
+Por lo tanto, el rasgo definitorio es **la restricción de acceso al código fuente**, no su gratuidad o pago, ni la existencia de derechos de autor (que existen en todos los modelos).
 
 </details>
 
 ---
 
-**3) El ejercicio de un derecho subjetivo siempre es lícito**
+**2) ¿Cuál es la relación entre la open source y el free software?**
 
-- [ ] Verdadero  
-- [ ] Falso
+- [ ] Son sinónimos  
+- [ ] La open source es una subdivisión del movimiento GNU  
+- [ ] Son dos movimientos diferentes  
 
 <details><summary>Respuesta</summary>
-
-> El **derecho subjetivo** es la **facultad que tiene una persona** para exigir algo conforme a la ley. Surge del derecho objetivo y permite hacer valer un interés propio protegido jurídicamente.
-
-
-![alt text](/images/image-7.png)
 
-**✅ Falso**
+![alt text](image-1.png)
 
-El ejercicio de un **derecho subjetivo** **no siempre es lícito**. Aunque el derecho reconoce ciertas facultades, su ejercicio está limitado por el principio de **no abuso del derecho**.
-Como vimos en el texto, si una persona ejerce un derecho en forma abusiva, más allá de los fines legítimos para los cuales fue otorgado, puede incurrir en responsabilidad.
+**✅ Son dos movimientos diferentes**
 
-➡️ Esta doctrina se consolidó con la idea de que los derechos no se ejercen en abstracto, sino en función de **intereses jurídicamente tutelados**.
+Aunque muchas veces se usan como sinónimos, el texto deja claro que el **software libre (free software)** y el **open source** son **dos movimientos distintos**, con fundamentos técnicos, filosóficos y legales diferentes:
 
-> COMO MIERDA ABUSAS DE UN DERECHO QUE MIERDA ESTA PASANDOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO ODIO ESTA MATERIA PROGRE
+> “Si habitualmente se utiliza la expresión de software libre y código abierto como sinónimos, en verdad, ambos términos denotan **concepciones técnicas, filosóficas y legales**, que si bien son similares, presentan **diferencias notables**.”
 
-</details>
-
----
-
-**4) Cuando analizamos las fuentes del derecho, el decreto reglamentario de la ley de promoción de software es ley en sentido material pero no formal**
-
-- [ ] Verdadero  
-- [ ] Falso
-
-<details><summary>Respuesta</summary>
-
-![alt text](/images/image-8.png)
-
-**✅ Verdadero**
+Además:
 
-En el marco de las **fuentes del derecho**, una norma tiene **valor de ley en sentido material** cuando **establece reglas generales y obligatorias**, sin importar qué órgano la haya dictado.
-El **decreto reglamentario** de la ley de promoción de software es **dictado por el Poder Ejecutivo**, y si bien **no es una ley formal** (porque no proviene del Congreso), **sí lo es en sentido material** ya que tiene contenido normativo obligatorio.
+- El movimiento de **software libre** tiene un fuerte componente **ideológico y ético**, centrado en la **libertad del usuario**.
+- El **open source**, promovido por la Open Source Initiative, se enfoca más en **criterios técnicos** y eficiencia en el desarrollo colaborativo.
 
-Este concepto está claramente explicado en el material cuando se diferencia entre:
+Por eso, **no son sinónimos ni uno depende del otro**: son **dos movimientos diferentes**, aunque en ocasiones puedan compartir herramientas o licencias.
 
-* **Ley formal**: emanada del Congreso.
-* **Ley material**: cualquier norma obligatoria dictada por autoridad competente.
-
 </details>
 
 ---
 
-**5) El objeto de normas supletorias son obligatorias si las partes guardan silencio al momento del contrato, pero pueden apartarse de lo previsto si así lo desean**
+**3) El copyleft impide que el usuario modifique**
 
-- [ ] Verdadero  
-- [ ] Falso
+- [ ] Los términos y condiciones de la licencia  
+- [ ] El carácter gratuito de la distribución  
+- [ ] El código fuente  
 
 <details><summary>Respuesta</summary>
 
-> Las **normas supletorias** son reglas legales que **se aplican solo si las partes no acuerdan otra cosa**. Se pueden modificar por voluntad de las partes.
+![alt text](image-2.png)
 
+**✅ Los términos y condiciones de la licencia**
 
-![alt text](/images/image-9.png)
+El **copyleft** **no impide modificar el código fuente** —de hecho, lo permite y lo promueve— pero **sí impide que se distribuyan versiones modificadas bajo licencias más restrictivas**. Es decir, **obliga a mantener los mismos términos y condiciones de la GPL**.
 
-**✅ Verdadero**
+Del texto:
 
-Las **normas supletorias** son aquellas que **se aplican automáticamente si las partes no acuerdan otra cosa** en un contrato. Como dice tu material:
+> “En el caso de la GPL, los derechos otorgados a los licenciatarios del programa original, quedan sujetos a la condición de que los mismos otorguen **similares libertades al momento de la nueva distribución**.”
 
-> "*El acuerdo de voluntades se compone por lo que las partes expresamente acordaron más lo que la ley marca en caso de silencio.*"
+> “Un programa sujeto a Copyleft no puede modificarse ni distribuirse **a menos que se haga bajo los términos y condiciones de la GPL**…”
 
-Sin embargo, estas normas **pueden ser dejadas de lado** si las partes lo deciden expresamente, ya que **no son imperativas**. Es decir, **son obligatorias solo si no se pacta lo contrario**, y **pueden ser sustituidas por la voluntad de las partes**.
+Por lo tanto, **el copyleft impide modificar los términos de la licencia**, no el código fuente ni su distribución gratuita.
 
 </details>
 
 ---
-
-## Estructura Constitucional
-
-En esta unidad repasaremos algunos conceptos de derecho constitucional, en particular, la forma del estado y del gobierno y los límites que el derecho le impone al poder estatal.
 
-**1) El habeas corpus es**
+**4) La licencia oficial de la Open Source Foundation es**
 
-- [ ] Un derecho constitucional contra las detenciones arbitrarias  
-- [ ] Una garantía que protege la libertad ambulatoria  
-- [ ] Una declaración de derechos humanos
+- [ ] La Python  
+- [ ] La Apache  
+- [ ] No tiene una licencia oficial  
 
 <details><summary>Respuesta</summary>
 
-> El **derecho constitucional** es la rama del derecho que regula la estructura y el funcionamiento del Estado, definiendo cómo se organizan y limitan los poderes públicos (Ejecutivo, Legislativo y Judicial) y garantizando los derechos fundamentales de las personas. Su base es la Constitución Nacional, que establece las normas más importantes del país y asegura libertades como la igualdad ante la ley, la libertad de expresión y el derecho a la educación.
+![alt text](image-3.png)
 
+**✅ No tiene una licencia oficial**
 
-![alt text](/images/image-10.png)
+La **Open Source Initiative (OSI)** —a veces llamada incorrectamente "Open Source Foundation"— **no promueve una única licencia oficial**, sino que **certifica licencias de terceros** que cumplan con ciertos criterios.
 
+Del texto:
 
-✅ **Una garantía que protege la libertad ambulatoria**
+> “A diferencia de los propulsores del software libre, **los miembros de la Open Source Initiative no promueven una licencia única** sino **un programa de certificación de licencias de terceros**, las cuales deben cumplimentar los criterios establecidos por la iniciativa.”
 
-Según el texto que me compartiste, el *habeas corpus* es una **garantía constitucional** que **tutela la libertad física o ambulatoria** de una persona frente a detenciones o restricciones arbitrarias. Si bien puede considerarse un derecho constitucional, en sentido técnico y preciso **es una garantía**, es decir, un mecanismo procesal que permite proteger ese derecho.
+Esto significa que **tanto la licencia Apache como la Python pueden estar certificadas**, pero **ninguna de ellas es “la oficial”**. Por eso, **la opción correcta es "No tiene una licencia oficial"**.
 
 </details>
 
 ---
 
-**2) Aparte del preámbulo el texto constitucional se divide en:**
+**5) LGPL es**
 
-- [ ] Dos partes: Declaraciones derechos y garantías y autoridades de la nación  
-- [ ] Tres partes: Declaraciones derechos y garantías, autoridades de la nación y gobiernos provinciales  
-- [ ] Cuatro partes: Declaraciones derechos y garantías y tres correspondiendo a cada poder del estado
+- [ ] Una licencia de open source  
+- [ ] Un licencia GNU que se utiliza para librerías  
+- [ ] Un versión reducida de la GPL  
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-11.png)
+![alt text](image-4.png)
 
-✅ **Dos partes: Declaraciones derechos y garantías y autoridades de la nación**
+**✅ Una licencia GNU que se utiliza para librerías**
 
-Según el desarrollo teórico, el texto constitucional argentino —aparte del preámbulo— se divide en dos grandes secciones:
+La **LGPL (Lesser General Public License)** es una **licencia de la Free Software Foundation** pensada **específicamente para librerías**, y permite que estas se utilicen en programas que no están licenciados bajo GPL.
 
-* **Parte dogmática**: que contiene las declaraciones, derechos y garantías.
-* **Parte orgánica**: que regula la organización y funcionamiento de los poderes del Estado (autoridades de la Nación).
+Del texto:
 
-</details>
-
----
-
-**3) La monarquía es una forma**
-
-- [ ] De nación  
-- [ ] De estado  
-- [ ] De gobierno
-
-<details><summary>Respuesta</summary>
+> “La licencia **LGPL aporta una solución** al permitir la distribución tanto de la **librería** como del programa principal bajo términos independientes.”
 
-![alt text](/images/image-12.png)
+Y también:
 
-✅ **De gobierno**
+> “**La Free Software Foundation promueve otras dos licencias**: La denominada **Lesser General Public License (LGPL)** y la **Affero General Public License (AGPL)**.”
 
-Según el texto que compartiste, **la monarquía** se clasifica dentro de las **formas de gobierno**, ya que se refiere al modo en que se ejerce el poder sobre la población. Se contrapone a la república, y puede ser **constitucional** o **absoluta**, dependiendo del grado de poder del monarca.
+Por lo tanto, **la opción correcta es que es una licencia GNU usada para librerías**. No es simplemente open source ni una versión reducida (aunque tenga menos restricciones que la GPL).
 
 </details>
 
 ---
-
-**4) La existencia del federalismo se relaciona**
-
-- [ ] Con la preexistencia de los gobiernos locales, que retienen para sí las competencias no expresamente delegadas
-- [ ] La mayor descentralización de las facultades del estado en beneficio de los gobiernos locales  
-- [ ] La existencia de provincias en un territorio
 
-<details><summary>Respuesta</summary>
+## Derechos de Internet
 
-![alt text](/images/image-13.png)
+**1) La internet se encuentra manejada en la actualidad por**
 
-✅ **Con la preexistencia de los gobiernos locales, que retienen para sí las competencias no expresamente delegadas**
+- [ ] La sociedad de internet  
+- [ ] La Fundación de Ciencias  
+- [ ] El Ministerio de defensa de los EE UU  
 
-Según el texto, el federalismo argentino se basa en que **las provincias son preexistentes a la Nación** y, por lo tanto, **toda facultad no delegada permanece en ellas**, lo que implica una distribución de competencias en favor de los gobiernos locales. Esto es lo que distingue al federalismo de otras formas de organización estatal.
-
+<details><summary>Respuesta</summary>
 
-</details>
+![alt text](image-5.png)
 
----
+**✅ La sociedad de internet**
 
-**5) Un sistema de control constitucional difuso implica**
+Actualmente, **Internet no está dirigida por una sola entidad gubernamental o privada**, pero en sus aspectos técnicos está **coordinada por la Sociedad de Internet (Internet Society)**.
 
-- [ ] Que cualquier juez puede declarar la inconstitucionalidad  
-- [ ] Que la declaración se expande a los casos similares  
-- [ ] Que tanto el poder ejecutivo como el judicial puede declararla
+Del texto:
 
-<details><summary>Respuesta</summary>
+> “Sin embargo, ello no impide la existencia de un organismo de control de la internet, el cual, por lo menos en sus aspectos técnicos ejerce un control sobre ella.
 
-![alt text](/images/image-14.png)
+> **La Sociedad de Internet es una organización no gubernamental**, sin nacionalidad definida ni fines de lucro [...] trabajan elaborando políticas y prácticas para ser adoptadas por la red [...]”
 
-✅ **Que cualquier juez puede declarar la inconstitucionalidad**
+Además:
 
+- El **Ministerio de Defensa de EE.UU.** estuvo a cargo del proyecto **ARPAnet**, pero **se retiró en 1990**.
+- La **Fundación de Ciencias Naturales** también tuvo el control hasta **1995**, momento en el cual **se lo delega a operadores privados**.
 
-En el sistema de **control constitucional difuso**, como el que rige en Argentina a nivel federal, **todos los jueces** tienen la facultad de declarar la inconstitucionalidad de una norma en un caso concreto. Esto lo diferencia del sistema concentrado, donde solo un tribunal específico tiene esa atribución.
+Por lo tanto, **la opción correcta es "La sociedad de internet"**.
 
 </details>
 
 ---
 
-## Hechos y Actos Jurídicos
+**2) La relación entre el nombre de dominio y la marca comercial es**
 
-En esta clase analizaremos como el derecho aprehende los fenomenos externos y les da un significado jurídíco, Veremos el concepto de acto humano voluntario tanto ilicito como lícito y dentro de estos últimos, nos detendremos en aquellos que tienen la intención de generar relaciones jurídicas 
+- [ ] La marca comercial absorbe al nombre de dominio  
+- [ ] El nombre de dominio absorbe a la marca comercial  
+- [ ] Son independientes  
 
-**1) La intervención de un oficial público le da carácter a un instrumento cuando**
-
-- [ ] Lo realiza según la normativa y con las formalidades previstas para tal acto  
-- [ ] Solo si el oficial público le otorga tal característica  
-- [ ] Debe ser certificado por el Estado mediante su presentación ante la autoridad competente
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-15.png)
 
-* [x] **Lo realiza según la normativa y con las formalidades previstas para tal acto**
+![alt text](image-6.png)
 
-La intervención del oficial público no es por sí sola suficiente para conferir carácter de instrumento público. Es necesario que **se cumplan además las formalidades legales exigidas por el ordenamiento jurídico**, tal como se establece en el desarrollo sobre los instrumentos públicos y el artículo 979 del Código Civil.
+**✅ Son independientes**
 
-</details>
-
----
+Según el texto, **los nombres de dominio y las marcas comerciales no pueden asimilarse jurídicamente**, ya que presentan **características distintas**:
 
-**2) La fe pública otorgada al instrumento se extiende**
-
-- [ ] A todo el contenido del instrumento  
-- [ ] A lo percibido por el oficial público y a las manifestaciones de las partes  
-- [ ] A lo percibido por el oficial público
-
-<details><summary>Respuesta</summary>
+> “Por lo tanto, **no es posible asimilar los nombres de dominio a las marcas comerciales**, lo cual, sin embargo, no impide que entre ambas figuras se produzcan relaciones.”
 
-![alt text](/images/image-16.png)
+También se detallan diferencias como:
 
-✅ **Respuesta correcta: A lo percibido por el oficial público**
+- Las marcas tienen protección territorial y sectorial, los dominios no.
+- Las marcas tienen identidad gráfica/iconográfica, los dominios no.
+- Los dominios pueden no tener fines comerciales, las marcas sí implican productos o servicios.
 
-La fe pública del instrumento **no se extiende a todo su contenido**, sino **solo a lo que el oficial público ha visto u oído directamente**. Las **manifestaciones de las partes** hacen fe **hasta prueba en contrario**, mientras que el **hecho de haberlas realizado ante el oficial sí tiene fe pública**. Por lo tanto, **la autenticidad del instrumento se limita a los hechos cumplidos ante el oficial público**, según lo establece el texto.
+Por lo tanto, la respuesta correcta es que **son independientes**.
 
 </details>
 
 ---
 
-**3) Un hecho se comete con dolo eventual en el caso que el autor**
+**3) Los nombres de dominio con genéricos geográficos son manejados por**
 
-- [ ] Se represente el resultado de la acción y dirija sus acciones a su producción  
-- [ ] Se represente el resultado y le resulte indiferente si se produce o no  
-- [ ] No se presente ese resultado por negligencia o falta de cuidado
+- [ ] La autoridad de asignación de números de internet  
+- [ ] La autoridad de aplicación del país que refiera dicho dominio  
+- [ ] Queda en manos de particulares que concesionan el servicio  
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-17.png)
+![alt text](image-7.png)
 
-✅ **Respuesta correcta: Se represente el resultado y le resulte indiferente si se produce o no**
+**✅ La autoridad de aplicación del país que refiera dicho dominio**
 
-Según el texto, el **dolo eventual** se configura cuando hay **representación del resultado**, pero el autor **no actúa directamente para causarlo**, sino que **le es indiferente si ocurre o no**. Se diferencia del dolo directo (donde se busca el resultado) y de la culpa (donde no se representa el resultado por negligencia o imprudencia).
+Según el texto:
 
+> “...la cláusula compromisoria elaborada por la IANA a los efectos de saldar las controversias que pudieran suscitarse respecto a la asignación de los nombres de dominio [...] es aceptada al momento de registrar el nombre de dominio en la autoridad de aplicación ya sea la IANA o la autoridad local, en nuestro caso NIC-Argentina.”
+
+Esto implica que **los dominios con indicativo geográfico como .ar** están a cargo de una autoridad **nacional**, y no de un organismo global como la IANA. En el caso argentino, **NIC Argentina** es la autoridad competente.
+
 </details>
 
 ---
 
-**4) En un acto jurídico accesorio**
+**4) Según el fallo Belén Rodríguez, la responsabilidad de buscadores y hostings es**
 
-- [ ] La desaparición del accesorio implica la desaparición del principal  
-- [ ] La desaparición del principal conlleva la del accesorio  
-- [ ] Son independientes
+- [ ] Subjetiva  
+- [ ] Objetiva  
+- [ ] El fallo no lo define  
 
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-18.png)
 
-✅ **Respuesta correcta: La desaparición del principal conlleva la del accesorio**
+![alt text](image-8.png)
 
-En los actos jurídicos, el **accesorio depende del principal** para su validez y existencia. Tal como se menciona en el texto, “la nulidad del contrato principal hace caer la garantía dada por la fianza”, es decir, si desaparece el acto principal, **el accesorio también pierde efecto**.
+Subjetiva
 
 </details>
 
----
+----
 
-**5) La violencia afecta a qué elemento de la voluntad**
+**5) Según lo establecido por el fallo mayoritario, una vez debidamente notificados, los buscadores y hosting deben bloquear el contenido**
 
-- [ ] La libertad  
-- [ ] La intención  
-- [ ] El discernimiento
+- [ ] Solo el contenido denunciado  
+- [ ] El contenido que consideren es manifiestamente ilegal  
+- [ ] Deben activamente buscar y bloquear el contenido similar al denunciado  
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-19.png)
+![alt text](image-9.png)
 
-✅ **Respuesta correcta: La libertad**
+✅ **Solo el contenido denunciado**
 
-Según el texto, **la violencia** como vicio de los actos jurídicos “se encuentra directamente relacionada con la **libertad** o por lo menos con su falta”, ya que impide que el autor del acto pueda decidir libremente si lo realiza o no.
+En el fallo mayoritario del caso *Belén Rodríguez*, la Corte Suprema estableció que los buscadores no tienen obligación de monitorear proactivamente los contenidos ni de bloquear otros contenidos similares. Solo están obligados a **bloquear el contenido específicamente denunciado**, siempre y cuando hayan sido **debidamente notificados** y se trate de una situación donde **no se requiere intervención judicial previa** (por ejemplo, en casos de contenidos notoriamente ilícitos o claramente ofensivos).
 
+Esto evita imponer un deber de censura preventiva o control generalizado del contenido, alineándose con estándares internacionales como la Directiva Europea 2000/31.
+
 </details>
 
 ---
 
-## Contratos Informaticos
+## Delitos Informáticos
 
-Dentro de los actos jurídicos, los contratos permiten la creación y modificacion de relaciones personales entre las partes. En la presente unidad, veremos en primer término los contratos en general, para luego adentrarnos en la problemática de los contratos sobre sistemas de información.
+**1) ¿Cuál es la regulación actual de la tenencia de pornografía infantil en la República Argentina?**
 
-**1) Un contrato informático es**
+- [ ] Se penaliza la tenencia simple y la tenencia con fines de distribución  
+- [ ] Se criminaliza la tenencia con fines de distribución  
+- [ ] Se aplica la misma pena que la distribución y producción del material  
 
-- [ ] Un contrato sobre sistemas de información  
-- [ ] Un contrato celebrado mediante una red abierta como internet  
-- [ ] Un contrato celebrado por un sistema experto  
+<details><summary>Respuesta</summary>
 
+![alt text](image-10.png)
 
-<details><summary>Respuesta</summary>
+✅ Se penaliza la tenencia simple y la tenencia con fines de distribución
 
-![alt text](/images/image-20.png)
+La Ley 26.388, que modificó el Código Penal argentino en 2008, incorporó delitos vinculados a los sistemas informáticos y también penalizó la simple tenencia de pornografía infantil, además de la producción y distribución.
 
-[x] **Un contrato sobre sistemas de información**
+"Será reprimido con prisión de tres meses a un año el que tuviere en su poder representaciones de menores de 18 años dedicados a actividades sexuales explícitas."
 
-**Justificación:**
-Según la definición de Mosset Iturraspe, un contrato informático es aquel mediante el cual se crean, modifican, transmiten o extinguen relaciones obligacionales sobre **bienes y/o servicios informáticos**. Estos bienes se integran generalmente en un **sistema destinado a la gestión organizada de información**.
-Por lo tanto, lo que caracteriza a este tipo de contrato es su objeto: **los sistemas de información** y no el medio por el que se celebra (como internet) ni el uso de inteligencia artificial.
+Por tanto, la tenencia simple ya es punible, y no solo la destinada a distribución.
 
 </details>
 
 ---
 
-**2) Un sistema informático se define por**
+**2) La destrucción negligente de datos de un sistema está penada como**
 
-- [ ] Las especificaciones técnicas  
-- [ ] Las necesidades a satisfacer  
-- [ ] El hardware entregado  
+- [ ] No está penada. El delito de daño siempre implica dolo  
+- [ ] Como una figura atenuada (menos pena) del daño  
+- [ ] A los efectos de la figura no importa si se produjo por dolo o culpa  
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-21.png)
+![alt text](image-11.png)
 
-[x] **Las necesidades a satisfacer**
+✅ No está penada. El delito de daño siempre implica dolo
 
-En los contratos informáticos, el sistema se define como un **conjunto de bienes organizados en función de un objetivo común**, es decir, lo que **define a un sistema informático es la función que debe cumplir según las necesidades del usuario**. No basta con especificaciones técnicas o hardware entregado si no se satisface la necesidad planteada por el cliente.
-Esto fue claramente sostenido en el fallo *“Sisteco S.A. c/ Sujoy”*, donde se concluyó que el cumplimiento de la obligación del proveedor no se mide por la entrega física de elementos, sino por la **adecuación del sistema a los fines previstos**.
+Según el Código Penal argentino, el delito de daño a datos, sistemas o archivos exige intención dolosa, es decir, la voluntad consciente de causar el daño. Por tanto, la negligencia (culpa) no es punible en este caso.
 
+“El tipo penal de daño informático exige dolo. La conducta culposa, como la negligencia o impericia, no configura delito.”
+
 </details>
 
 ---
 
-**3) La entrega del sistema se produce**
+**3) Una estafa informática implica**
 
-- [ ] Cuando el mismo cumple con los test de funcionamiento  
-- [ ] Con la instalación del equipo  
-- [ ] Con la entrega física del material al cliente  
+- [ ] Un engaño producido por medios informáticos  
+- [ ] La obtención de los datos de una persona mediante técnicas de ingeniería social  
+- [ ] La modificación del funcionamiento del sistema  
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-22.png)
+![alt text](image-12.png)
 
-[x] **Cuando el mismo cumple con los test de funcionamiento**
+**✅ La modificación del funcionamiento del sistema**
 
-En los contratos informáticos, **la entrega del sistema no se limita a la entrega física del hardware ni a su instalación**, sino que se considera cumplida **cuando el sistema pasa satisfactoriamente el test de aceptación**.
-Este test consiste en una verificación funcional previamente acordada que demuestra que el sistema cumple con los requisitos y objetivos definidos. Por lo tanto, **la entrega efectiva se da cuando el sistema funciona conforme a lo pactado**, incluyendo su adecuación a las necesidades del usuario.
+Según el marco legal argentino, la figura de **estafa informática** (incorporada por la Ley 26.388) incluye supuestos donde el autor **modifica el funcionamiento de un sistema informático con el fin de provocar un perjuicio patrimonial**. Es un tipo penal autónomo que no requiere el clásico engaño de la estafa tradicional.
 
 </details>
 
 ---
 
-**4) La obligación de consejo abarca**
+**4) Al momento de la sanción de la ley, la aplicación Whatsapp no existía. Si una persona interfiere con dichos mensajes, ¿comete un delito?**
 
-- [ ] Los aspectos económicos y técnicos del proyecto  
-- [ ] Todos los aspectos del proyecto  
-- [ ] Solo los aspectos técnicos  
+- [ ] Sí, porque el tipo penal refiere a toda comunicación electrónica  
+- [ ] Sí, porque por analogía se amplía a los servicios similares pero no previstos en el texto  
+- [ ] No, porque no está previsto en la ley  
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-23.png)
+![alt text](image-13.png)
 
-[x] **Solo los aspectos técnicos**
+**✅ Sí, porque el tipo penal refiere a toda comunicación electrónica**
 
-Según el marco teórico sobre contratos informáticos, **la obligación de consejo del proveedor se limita a los aspectos técnicos** del sistema, como la configuración, compatibilidad, escalabilidad y adecuación a las necesidades funcionales del usuario.
-**No abarca aspectos económicos ni decisiones empresariales**, ya que estos exceden el rol técnico del proveedor y son responsabilidad del cliente o de consultores externos. Esto fue confirmado por la jurisprudencia en casos como *“Cajus Face vs IBM”*.
+El Código Penal argentino **no limita la protección a servicios específicos**, sino que se refiere a **“comunicaciones electrónicas”** en general. Por lo tanto, **la protección abarca aplicaciones como Whatsapp**, aun cuando no existieran al momento de sancionarse la norma, debido a la **redacción amplia del tipo penal**.
 
 </details>
 
 ---
 
-**5) ¿Cuál de las siguientes sería una excepción a la obligación de consejo?**
+**5) El phishing está previsto en el código como**
 
-- [ ] Que el cliente sea una empresa líder en su sector  
-- [ ] El acuerdo de partes  
-- [ ] La contratación de un consultor externo por parte del cliente  
+- [ ] Una forma de estafa  
+- [ ] Una forma de hurto  
+- [ ] No está previsto en el código  
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-24.png)
+![alt text](image-14.png)
 
-[x] **La contratación de un consultor externo por parte del cliente**
+El phishing, como práctica específica, no se encuentra tipificado explícitamente en el Código Penal argentino. Si bien puede ser perseguido bajo otras figuras (como la estafa o el fraude), no existe una norma que mencione expresamente el “phishing”.
 
-Según el contenido desarrollado sobre contratos informáticos, **cuando el cliente contrata a un consultor especializado para definir el pliego de condiciones**, la responsabilidad de asesoramiento **se traslada** de forma parcial o total al consultor.
-En ese caso, **el proveedor ya no tiene el deber de interpretar directamente las necesidades del usuario**, ya que se presume que fueron correctamente traducidas por el profesional contratado por este último.
-Esta posición fue sostenida por la jurisprudencia francesa en el caso *"Ste. Sopresur N.C.R. vs Sté Groupe Lebrun"*.
+“En la legislación argentina, el phishing no cuenta con un artículo específico que lo regule, lo que ha generado reclamos por reformas legislativas que aborden los delitos informáticos de forma más directa.”
 
 </details>
 
 ---
 
-## Contratos Parte General
+## Parcial Ideas
 
-**1) Todo contrato tiene efectos respecto de terceros**
-- ( ) Verdadero  
-- ( ) Falso
+> Las respuestas son full chatgpt 😶
 
-<details><summary>Respuesta</summary>
+**1) Una licencia no propietaria se encuentra definida por**
 
-![alt text](/images/image-25.png)
+* [ ] La utilización de la licencia GPL
+* [ ] El carácter gratuito del contrato
+* [ ] El acceso en el código fuente
 
-**Respuesta: ( ) Falso**
+<details><summary>Respuesta</summary>
 
-De acuerdo con el principio general del derecho contractual, **los contratos solo producen efectos entre las partes que los celebran**, no respecto de terceros. Esta regla está expresamente reconocida en el derecho argentino y es coherente con el principio de relatividad de los contratos.
+✅ **El acceso en el código fuente**
 
-Sin embargo, existen **excepciones** a este principio, como:
+Una licencia **no propietaria** permite el acceso, estudio, modificación y redistribución del código fuente. Esa es la **característica distintiva** frente a las licencias privativas, que lo prohíben.
 
-* **Contratos con cláusula a favor de terceros**, como los seguros de vida.
-* **Contratos que transfieren derechos reales**, los cuales pueden ser oponibles a terceros.
+> “De lo expuesto surge claramente que, **para modificar el programa original, el usuario necesita el archivo de código fuente**, toda vez que el código objeto no permite su alteración por el usuario.”
 
-Esto se encuentra desarrollado tanto en la doctrina como en la jurisprudencia y fue señalado en los materiales bajo estudio (como en el análisis sobre los sujetos en los contratos).
+El carácter gratuito **no es un requisito**, ya que existen licencias libres u open source **que pueden tener costos asociados**. Asimismo, usar GPL es un ejemplo, **pero no define** por sí sola a todas las licencias no propietarias.
 
 </details>
 
 ---
 
-**2) El contrato se perfecciona con la aceptación de la oferta**
-- ( ) Verdadero  
-- ( ) Falso
+**2) Si un programa que llama a una biblioteca licenciada mediante LGPL implica que**
 
-<details><summary>Respuesta</summary>
+* [ ] La biblioteca debe licenciarse con la licencia del programa principal
+* [ ] Se mantiene la independencia de ambos programas
+* [ ] El programa principal debe licenciarse con la licencia de la biblioteca
 
-![alt text](/images/image-26.png)
+<details><summary>Respuesta</summary>
 
-**Respuesta: (✔) Verdadero**
+✅ **Se mantiene la independencia de ambos programas**
 
-Según el **Código Civil y Comercial argentino (art. 1148 y siguientes)** y el material estudiado, **el contrato se perfecciona cuando la oferta es aceptada en tiempo y forma**. Es decir, cuando hay un **acuerdo de voluntades** entre dos o más partes sobre un objeto lícito, posible y determinado.
+La **LGPL (Lesser General Public License)** fue diseñada específicamente para **permitir que bibliotecas libres sean utilizadas por software propietario o con otra licencia**, sin obligar a que el programa principal adopte la misma licencia.
 
-Este principio es esencial en la **formación del contrato**:
+> “La licencia LGPL aporta una solución al permitir la distribución tanto de la librería como del programa principal bajo términos independientes.”
 
-* La oferta debe contener los elementos esenciales del negocio.
-* La aceptación debe ser **lisa y llana**, sin modificar los términos de la oferta.
-* El contrato queda perfeccionado **en el momento del envío de la aceptación**, salvo pacto en contrario (art. 1154).
+Esto significa que el **programa principal no está obligado a adoptar la licencia LGPL**, a diferencia de lo que ocurre con la **GPL tradicional**.
 
 </details>
 
 ---
 
-**3) Un contrato es un acto jurídico**
-- ( ) Verdadero  
-- ( ) Falso
+**3) La firma digital mantiene las siguientes presunciones**
 
+* [ ] Integridad y confidencialidad
+* [ ] Confidencialidad y Autoría
+* [ ] Autoría e Integridad
+
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-27.png)
+✅ **Autoría e Integridad**
 
-**Respuesta: (✔) Verdadero**
+La **firma digital**, conforme a la legislación argentina (Ley 25.506), **presume la autoría del firmante** y **la integridad del documento**, es decir, que no fue alterado desde que fue firmado.
 
-Un contrato es, efectivamente, un **acto jurídico** porque cumple con todas las características de este tipo de actos: es un hecho **voluntario, lícito y destinado a crear, modificar o extinguir derechos y obligaciones** entre las partes (art. 944 del Código Civil).
+> “La firma digital asegura que el mensaje proviene efectivamente del autor (autoría) y que no ha sido modificado (integridad) desde su emisión.”
 
-En el marco de los contratos, se trata de un **acto jurídico bilateral o plurilateral**, ya que requiere el acuerdo de dos o más voluntades para su existencia.
+**Confidencialidad** no es una propiedad garantizada por la firma digital, ya que **eso se logra por otros mecanismos como el cifrado**.
 
 </details>
 
 ---
 
-**4) Solo se pueden celebrar los contratos previstos por la ley**
+**4) Según el Fallo Belén Rodríguez, la responsabilidad de los buscadores y hostings es**
 
-- ( ) Verdadero  
-- ( ) Falso
+* [ ] Subjetiva
+* [ ] Objetiva
+* [ ] No lo define
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-28.png)
+✅ **Subjetiva**
 
-**Respuesta: (✔) Falso**
+En el fallo *Belén Rodríguez*, la Corte Suprema de Justicia de la Nación **estableció la responsabilidad subjetiva** para los buscadores y servicios de hosting. Esto significa que **sólo pueden ser considerados responsables si se demuestra culpa o negligencia**, especialmente **luego de haber sido debidamente notificados** y no haber tomado medidas.
 
-No es necesario que un contrato esté expresamente previsto por la ley para que sea válido. Existen **contratos nominados** (regulados por la ley) y **contratos innominados**, que surgen del **principio de la autonomía de la voluntad**.
+> La Corte señaló que la responsabilidad **no es automática**, y que los buscadores **no tienen deber general de monitoreo**, alineándose con los estándares internacionales en materia de libertad de expresión.
 
-Mientras no contravengan normas de orden público, la moral o las buenas costumbres, **las partes pueden celebrar contratos atípicos o innominados**, fijando libremente su contenido, según sus intereses y necesidades. Esto está reconocido tanto en la doctrina como en la jurisprudencia argentina.
-
 </details>
 
 ---
 
-**5 El pacto comisorio resuelve el contrato en caso de incumplimiento**
-- ( ) Verdadero  
-- ( ) Falso
+**5) El click and wrap agreement tiene como requisito**
 
-<details><summary>Respuesta</summary>
+* [ ] El acceso a los términos y condiciones que se va a aceptar
+* [ ] El uso de firma digital
+* [ ] La existencia de cláusulas predispuestas
 
-![alt text](/images/image-29.png)
+<details><summary>Respuesta</summary>
 
-**Respuesta: (✔) Verdadero**
+✅ **El acceso a los términos y condiciones que se va a aceptar**
 
-El **pacto comisorio** es una cláusula que permite **resolver el contrato** cuando una de las partes **incumple** sus obligaciones. Según el artículo 1204 del Código Civil argentino (reformado por la ley 17.711), puede ser:
+Los **clickwrap y browsewrap agreements** se basan en que el usuario tenga **posibilidad de acceso y conocimiento de los términos**, incluso si no los lee. Es decir, se presume aceptación al hacer clic (clickwrap) o al continuar usando el sitio (browsewrap), **siempre que la información esté disponible y accesible**.
 
-* **Expreso**, si las partes lo pactan explícitamente (no requiere intimación).
-* **Tácito**, si no se pactó expresamente, pero se aplica de todos modos, con la **obligación de intimar** al cumplimiento en un plazo mínimo de 15 días.
+> La validez jurídica de estos contratos **depende de la transparencia y posibilidad de acceso al contenido contractual**, y no requiere firma digital.
 
-Una vez resuelto, el contrato se considera extinguido con **efectos retroactivos**, y puede dar lugar al reclamo de **daños y perjuicios**.
+La **firma digital no es obligatoria** en estos acuerdos, y las **cláusulas predispuestas** son una característica común, pero **no el requisito fundamental**.
 
 </details>
 
 ---
 
-**6) El contrato se perfecciona con la firma de las partes**
-- ( ) Verdadero  
-- ( ) Falso
+**6) La tenencia simple de pornografía infantil actualmente**
 
+* [ ] No está penada
+* [ ] Es una figura atenuada de la tenencia con fines de distribución
+* [ ] Se asimila a la tenencia y comercialización
+
 <details><summary>Respuesta</summary>
+
+✅ **Se asimila a la tenencia y comercialización**
 
-![alt text](/images/image-30.png)
+La **Ley 26.388**, que reforma el Código Penal argentino, establece que **la tenencia simple de pornografía infantil es delito**, independientemente de su destino. No es necesario que exista intención de distribución o comercialización para que sea punible.
 
-**Respuesta: (✘) Falso**
+> “Será reprimido con prisión de tres meses a un año el que tuviere en su poder representaciones de menores de 18 años dedicados a actividades sexuales explícitas.” (Art. 128)
 
-El **contrato se perfecciona con el acuerdo de voluntades**, es decir, **cuando hay aceptación de la oferta** (art. 1154 del Código Civil). La **firma** no es un requisito esencial para todos los contratos; es solo una **forma de exteriorizar** ese consentimiento, especialmente en contratos escritos.
-En muchos casos, el contrato es válido **aunque no haya sido firmado**, siempre que haya consentimiento entre las partes y no se requiera una forma solemne para su validez.
+Esto implica que **la tenencia por sí sola ya configura un delito**, siendo una **medida de tolerancia cero** frente a estos materiales.
 
 </details>
 
 ---
 
-**7) Un contrato unilateral tiene una sola parte**
-- ( ) Verdadero  
-- ( ) Falso
+**7) El delito de acceso no autorizado tiene como característica**
 
+* [ ] Solo se aplica a sistemas informáticos dedicados a servicios públicos
+* [ ] Se puede configurar tanto por culpa como por dolo
+* [ ] Es un delito subsidiario: Solo se configura si no se comete otro delito previsto en el código
+
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-31.png)
+✅ **Se puede configurar tanto por culpa como por dolo**
 
-**Respuesta: (✘) Falso**
+El **delito de acceso no autorizado** está contemplado en el artículo 153 bis del Código Penal argentino. Se trata de **un delito doloso**, pero en ciertas interpretaciones doctrinarias y jurisprudenciales se ha planteado que **puede derivar de un actuar negligente o imprudente en contextos específicos**.
 
-Un contrato **unilateral** no implica que haya una sola **parte**, sino que **solo una de las partes asume obligaciones**. Siempre se requiere al menos **dos partes** para que exista un contrato (art. 1137 del Código Civil), pero en el contrato unilateral, **solo una queda obligada**. Ejemplo: una **donación**, donde el donante se obliga a entregar y el donatario no asume obligación alguna.
+No es exclusivo de servicios públicos, ni es subsidiario: **tiene autonomía propia como figura penal**.
 
 </details>
 
 ---
 
-**8) Un contrato de adhesión es una convención con cláusulas predispuestas**
-- ( ) Verdadero  
-- ( ) Falso
+**8) El número de teléfono es un dato mínimo de identificación de una persona**
 
-<details><summary>Respuesta</summary>
+* [ ] Verdadero
+* [ ] Falso
 
-![alt text](/images/image-32.png)
+<details><summary>Respuesta</summary>
 
-**Respuesta: (✔) Verdadero**
+✅ **Verdadero**
 
-Un **contrato de adhesión** es aquel en el que **las cláusulas están predispuestas por una de las partes** (generalmente la más fuerte económicamente) y la otra parte solo puede **aceptarlas o rechazarlas**, sin posibilidad real de negociación. Este tipo de contratos es típico en servicios masivos como seguros, banca o telefonía.
+El **número de teléfono** se considera un **dato personal identificatorio**, ya que permite **vincular directamente a una persona física** con información específica. Esto se contempla en la **Ley 25.326 de Protección de Datos Personales**, y también en regulaciones de organismos como la Agencia de Acceso a la Información Pública.
 
 </details>
 
 ---
 
-**9) Una aceptación que modifique la oferta implica una contraoferta**
-- ( ) Verdadero  
-- ( ) Falso
+**9) Los datos médicos no pueden ser recolectados por particulares por principio general**
 
-<details><summary>Respuesta</summary>
+* [ ] Verdadero
+* [ ] Falso
 
-![alt text](/images/image-33.png)
+<details><summary>Respuesta</summary>
 
-**Respuesta: (✔) Verdadero**
+✅ **Verdadero**
 
-Según el Código Civil argentino (art. 1154), para que el contrato se perfeccione, la aceptación debe ser **lisa y llana**, es decir, no debe introducir modificaciones a la oferta. Si la aceptación **altera alguno de sus términos**, no constituye una aceptación propiamente dicha, sino que **implica una nueva oferta o contraoferta**, que deberá ser aceptada por quien realizó la oferta original.
+Los **datos médicos** son considerados **datos sensibles** por la Ley 25.326. Su recolección **por parte de particulares está prohibida en términos generales**, **salvo consentimiento expreso y escrito del titular** o que existan **excepciones legales**, como fines estadísticos o científicos que garanticen anonimato.
 
 </details>
 
 ---
 
-**10) El objeto de un contrato debe ser posible**
+**10) Los datos disociados se rigen por la ley de bancos de datos**
 
-- ( ) Verdadero  
-- ( ) Falso
+* [ ] Verdadero
+* [ ] Falso
 
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-34.png)
 
-**Respuesta: (✔) Verdadero**
+✅ **Falso**
 
-Según el artículo 953 del Código Civil argentino, el objeto de los actos jurídicos —y por lo tanto, de los contratos— debe ser **posible**, **lícito**, y **conforme a la moral y las buenas costumbres**. Un objeto imposible (como obligarse a realizar una acción físicamente irrealizable) torna el contrato **nulo**, ya que no puede cumplirse válidamente.
+Los **datos disociados**, que **no pueden asociarse a una persona identificada o identificable**, **no están alcanzados** por la Ley 25.326, ya que **no se consideran datos personales**. Por eso, **quedan fuera del ámbito de aplicación de la ley**, salvo que se vuelvan a asociar con una persona física.
 
 </details>
 
 ---
 
-## Propiedad intelectual
+**11) La ley de bancos de datos guarda silencio sobre la responsabilidad civil de los titulares de bancos de datos**
 
-En esta clase veremos como el derecho recepta el trabajo intelectual y cuales son las formas de reinvidicar como propios los contenidos (software, marcas, etc) generados por el profesional informático
+* [ ] Verdadero
+* [x] Falso
 
-**1) El dominio público implica que los derechos de explotación económica terminan**
-
-- ( ) Verdadero  
-- ( ) Falso
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-35.png)
 
-**✅ Respuesta: Verdadero**
+✅ **Falso**
 
-Según el texto, una vez vencido el plazo de protección (70 años desde la muerte del autor), la obra entra en **dominio público**, lo cual significa que **los derechos patrimoniales** (económicos) del autor **quedan sin efecto**, y su utilización pasa a ser libre para todos sin necesidad de autorización ni pago .
+La **Ley 25.326** de Protección de Datos Personales **no guarda silencio** sobre este tema. En su **artículo 31**, establece expresamente que el titular de una base de datos **es responsable por los daños y perjuicios** que cause el tratamiento ilegítimo de datos, sin perjuicio de las demás responsabilidades civiles o penales que pudieran corresponder.
 
 </details>
 
 ---
 
-**2) El software se protege mediante la ley de patentes de invención**
+**12) Los datos sensibles no pueden ser recolectados salvo excepciones previstas por la ley**
 
-- ( ) Verdadero  
-- ( ) Falso
+* [x] Verdadero
+* [ ] Falso
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-36.png)
+✅ **Verdadero**
 
-**❌ Respuesta: Falso**
+La **recolección de datos sensibles** (como aquellos que revelan origen racial, opiniones políticas, creencias religiosas o estado de salud) está **prohibida en general**, salvo **excepciones legales**. Esto está previsto en el **artículo 7** de la **Ley 25.326**, que establece excepciones como el consentimiento expreso del titular o finalidades científicas o estadísticas que garanticen anonimato.
 
-El software **no se protege** mediante la Ley de Patentes de Invención (Ley 24.481), sino que está expresamente incluido en la **Ley 11.723 de Propiedad Intelectual** como una **obra literaria**. Esta protección fue incorporada luego del fallo “Pellicori” y tiene respaldo en tratados internacionales como el acuerdo TRIPS.
-
 </details>
 
 ---
 
-**3) Las marcas comerciales deben ser utilizadas en todas las categorías donde se anotan**
+**13) No es necesaria la autorización para recabar los datos si tácitamente el titular de los datos presta su conformidad**
 
-- ( ) Verdadero  
-- ( ) Falso
+* [ ] Verdadero
+* [x] Falso
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-37.png)
+✅ **Falso**
 
-**✅ Respuesta: Falso**
+La **autorización debe ser expresa**, informada y previa. **El consentimiento tácito no es válido** según la **Ley 25.326**, especialmente en el tratamiento de datos personales sensibles. La ley requiere **consentimiento inequívoco** del titular de los datos para su recolección, almacenamiento o cesión, con conocimiento de la finalidad y uso.
 
-La ley **no exige** que las marcas se utilicen en **todas** las categorías donde se anotan. Basta con que se **utilicen en al menos una** de las categorías inscriptas para que puedan ser renovadas. Las marcas inscritas en categorías donde no se pretende usarlas se conocen como **marcas de defensa**, y su objetivo es evitar la dilución de la marca por uso de terceros en rubros distintos.
 </details>
 
+
 ---
 
-**4) Toda obra registrada debe tener un mínimo de originalidad**
+## **Segundo Parcial Aspectos Legales - Ingeniería 2025**
 
-- ( ) Verdadero  
-- ( ) Falso
+**1. En cuál de los siguientes casos un certificado extranjero puede considerarse firma digital**
 
-<details><summary>Respuesta</summary>
+- Si cumple con los estándares técnicos establecidos en la reglamentación
+- Si hay un convenio de reciprocidad con el país de origen
+- Es licenciado en su país de origen
 
-![alt text](/images/image-38.png)
+<details><summary>Respuesta</summary>
+✅ Falso
 
-**✅ Respuesta: Verdadero**
+La autorización debe ser expresa, informada y previa. El consentimiento tácito no es válido según la Ley 25.326, especialmente en el tratamiento de datos personales sensibles. La ley requiere consentimiento inequívoco del titular de los datos para su recolección, almacenamiento o cesión, con conocimiento de la finalidad y uso.
 
-La ley exige que para que una obra sea protegida por derechos de autor, debe poseer un **mínimo grado de originalidad**. No se requiere una originalidad absoluta, pero sí debe haber un aporte personal del autor que diferencie la obra de otras preexistentes. Esto es esencial para que la obra pueda considerarse una creación protegible.
 </details>
 
 ---
 
-**5) La protección ofrecida por la ley de derechos de autor es tecnológicamente neutra**
+**2. Según la ley 25506, la copia de un documento digital tiene validez**
+- Cuando es certificada por una entidad licenciada por el estado
+- Es válida como una copia simple, similar a la una copia papel
+- Tiene la misma validez que su original
 
-- ( ) Verdadero  
-- ( ) Falso
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-39.png)
+✅ Es válida como una copia simple, similar a una copia papel
 
-**✅ Respuesta: Verdadero**
+Según la Ley 25.506 sobre firma digital, la copia de un documento digital certificada por una autoridad licenciada tiene validez como copia simple, no como original. Por lo tanto, no equivale al documento original, pero sí puede utilizarse en ciertos procedimientos como constancia documental, siempre que se garantice la integridad del contenido.
 
-La **ley 11.723** de propiedad intelectual, especialmente tras su reforma, establece una protección **amplia y no taxativa** que permite incluir nuevas formas de expresión como el software. Su redacción, en especial en el **artículo 1**, fue diseñada para abarcar toda producción científica, literaria o artística **sin importar el medio o tecnología utilizada**, lo que confirma su **neutralidad tecnológica**.
-
 </details>
 
 ---
-
-## Primer Parcial Aspectos Legales
-
-**1) Que un sistema de control constitucional sea difuso significa**
 
-- [ ] Que un cualquier juez puede decretar la inconstitucionalidad  
-- [ ] Que los efectos de la declaración se extienden a casos similares  
-- [ ] Que el planteo se puede producir en cualquier momento del proceso  
+**3. Un dato sensible es un dato**
+- Potencialmente discriminatorio
+- Que solo puede recolectar el estado
+- Ambos
 
 <details><summary>Respuesta</summary>
+✅ Potencialmente discriminatorio
 
-[x] **Que un cualquier juez puede decretar la inconstitucionalidad**
+Según la Ley 25.326 de Protección de Datos Personales, un dato sensible es aquel que revela origen racial o étnico, opiniones políticas, convicciones religiosas, filosóficas o morales, afiliación sindical o información referente a la salud o a la vida sexual. Este tipo de datos es potencialmente discriminatorio y su tratamiento está sujeto a mayores restricciones, pero no es exclusivo del Estado: puede ser recolectado por particulares siempre que exista consentimiento expreso y finalidades legítimas.
 
-Un sistema de control constitucional **difuso** implica que **todos los jueces** del país tienen la facultad de declarar la inconstitucionalidad de una norma en el caso concreto que estén resolviendo, a diferencia de un sistema **concentrado**, donde esa facultad está reservada a un tribunal específico (como una Corte Constitucional). ¿Querés que continúe con la siguiente pregunta?
-
 </details>
 
 ---
 
-**2) La propiedad intelectual de un software se regula**
+**4. Si un programa informático utiliza una librería licenciada por LGPL**
+- El programa informático debe licenciarse en LGPL atento el copyleft
+- La librería debe adoptar la licencia del programa principal atento su carácter accesorio
+- Mantienen la independencia de licenciamiento
 
-- [ ] Por la ley de derechos de autor  
-- [ ] Por la ley de patentes de invención  
-- [ ] Por una ley especial creada a tal fin  
-
 <details><summary>Respuesta</summary>
-
-[x] **Por la ley de derechos de autor**
+✅ Mantienen la independencia de licenciamiento
 
-Según la Ley 11.723 de Propiedad Intelectual (modificada), **el software está protegido como una obra literaria** dentro del régimen de derechos de autor, y **no** por la ley de patentes ni por una ley especial creada a tal fin. ¿Seguimos con la siguiente?
+La LGPL (Lesser General Public License) permite que una librería licenciada bajo LGPL sea utilizada por un programa sin que este deba adoptar la misma licencia. A diferencia de la GPL, la LGPL no impone el copyleft pleno al software que la utiliza, lo que permite mantener la independencia entre las licencias del programa principal y la librería.
 
 </details>
 
 ---
 
-**3) Un sistema de información es una universalidad de bienes definida por**
+**5. Según el fallo mayoritario de la Corte en el caso Belen Rodríguez a que está obligado el buscador**
+- A bloquear el contenido denunciado por el damnificado
+- A bloquear todo el contenido similar al denunciado
+- La identificación de las partes de una transacción de criptomonedas se identifican por
 
-- [ ] Los bienes ofrecidos  
-- [ ] Las necesidades a satisfacer  
-- [ ] El contenido del contrato  
-
 <details><summary>Respuesta</summary>
+✅ A bloquear el contenido denunciado por el damnificado
 
-[x] **Las necesidades a satisfacer**
+En el fallo Belén Rodríguez, la Corte Suprema estableció que los buscadores sólo están obligados a bloquear el contenido específicamente denunciado, siempre que exista notificación adecuada. No tienen la obligación de monitorear ni eliminar contenido similar de forma proactiva, lo que evita imponerles un deber de censura generalizada.
 
-Un sistema de información se define como una universalidad de bienes **cuya configuración depende de los objetivos y necesidades que debe satisfacer el usuario**, no simplemente por los bienes ofrecidos ni por lo que se establezca en el contrato .
 </details>
 
 ---
 
-**4) Por principio general, los contratos tienen el siguiente efecto respecto de los terceros**
+**6. La identificación de las partes de una transacción de criptomonedas se identifican por**
+- La certificación que realiza el gestor del sistema
+- Los datos contenidos en la blockchain
+- No se identifica. La operación se realiza de billetera a billetera
 
-- [ ] Son obligatorios, salvo pacto en contrario  
-- [ ] Son obligatorios en los casos que se realizaron por instrumento público  
-- [ ] No le son oponibles  
-
 <details><summary>Respuesta</summary>
-
-[x] **No le son oponibles**
+✅ No se identifica. La operación se realiza de billetera a billetera
 
-Por principio general, los contratos **sólo producen efectos entre las partes que los celebran**. Es decir, **no son oponibles a terceros**, salvo en casos excepcionales previstos por la ley.
+En las criptomonedas, las transacciones se realizan entre direcciones públicas (billeteras) sin necesidad de identificación personal obligatoria. La blockchain registra los movimientos, pero no contiene datos personales, lo que permite un alto grado de anonimato o pseudonimato. Solo mediante análisis avanzado y datos externos podría asociarse una billetera a una identidad real.
 
-
 </details>
 
 ---
 
-**5) La fe pública de un documento se extiende**
+**7. Cuál de los siguientes enunciados referidos a la licencia GNU es falso**
+- Correr el programa no implica aceptar los términos y condiciones
+- Es posible distribuir copias del programa a título oneroso
+- Es posible cambiar los términos de licenciamiento del programa
 
-- [ ] A todo el contenido del documento
-- [ ] A lo manifestado por las partes
-- [ ] A lo percibido por el oficial público
-
 <details><summary>Respuesta</summary>
+✅ Es posible cambiar los términos de licenciamiento del programa
+
+Este enunciado es falso. La licencia GNU GPL (General Public License) no permite cambiar los términos de licenciamiento del programa. Cualquier distribución del software, modificado o no, debe mantenerse bajo la misma licencia GPL (esto se conoce como efecto copyleft). Por lo tanto, no se puede volver propietario ni cambiar a una licencia más restrictiva.
 
-[x] **A lo percibido por el oficial público**
+Los otros enunciados son verdaderos:
 
-La fe pública **se extiende solo a lo que el oficial público ha percibido por sus sentidos o ha constatado personalmente**, no a lo manifestado por las partes, ya que esas manifestaciones pueden ser falsas o inexactas y no están bajo control directo del oficial.
+Usar el programa no implica aceptar la licencia, ya que no se impone como un contrato de uso.
 
+Es legal vender copias del software GPL, ya que la licencia permite distribución gratuita u onerosa, siempre respetando sus condiciones.
+
 </details>
 
 ---
 
-**6) La obligación de consejo se extiende a qué aspectos del proceso**
+**8. En el delito de pornografía infantil, la tenencia sin fines de distribución se encuentra**
+- No se encuentra penada
+- Prevista con la misma pena que la tenencia con fines de distribución (la ley habla solo de tenencia sin distinguir la finalidad)
+- Como una figura atenuada con la mitad de la pena de la tenencia con fines de distribución
 
-- [ ] Los técnicos  
-- [ ] Los técnicos y financieros  
-- [ ] Todos los aspectos del proyecto  
-
 <details><summary>Respuesta</summary>
+✅ Prevista con la misma pena que la tenencia con fines de distribución (la ley habla solo de tenencia sin distinguir la finalidad)
 
-[x] **Los técnicos**
+La legislación argentina, a partir de la Ley 26.388, penaliza la simple tenencia de material de pornografía infantil, sin requerir que exista una finalidad de distribución. El artículo correspondiente del Código Penal establece que tener en su poder representaciones de menores de 18 años en actividades sexuales explícitas constituye delito, sin distinguir si esa tenencia es para consumo personal o para distribución.
 
-La obligación de consejo del proveedor en contratos informáticos **se limita a los aspectos técnicos**, relacionados con la funcionalidad, compatibilidad y adecuación del sistema a las necesidades del usuario. No abarca aspectos financieros o empresariales.
+Esto implica que la simple posesión ya es punible, y no se considera una figura atenuada.
 
 </details>
 
 ---
-
-**7) ¿Cuál de las siguientes características NO pertenece a las obligaciones personales?**
 
-- [ ] Se establecen entre dos personas  
-- [ ] Implican un hacer, un dar o un omitir  
-- [ ] Se crean solo por ley  
+**9. La función de perito en el proceso civil se ejerce**
+- Por un experto sorteado de una lista
+- Por un especialista en relación de dependencia del poder judicial
+- Por un experto propuesto por la parte que solicita la pericia
 
 <details><summary>Respuesta</summary>
+✅ Por un experto sorteado de una lista
 
-[x] **Se crean solo por ley**
+En el proceso civil, los peritos son auxiliares de justicia que intervienen cuando se requiere un conocimiento técnico o científico para resolver un punto controvertido. La designación del perito se realiza generalmente por sorteo de una lista oficial de peritos matriculados, confeccionada por el Poder Judicial o el colegio profesional correspondiente.
 
-Las obligaciones personales **pueden originarse por ley, contrato, cuasicontrato, delito o cuasidelito**, pero **no se crean exclusivamente por ley**, por lo que esta opción **no** pertenece a sus características.
+Esto garantiza imparcialidad y objetividad, a diferencia de los peritos de parte, que pueden actuar complementariamente pero no reemplazan al perito oficial designado por sorteo.
 
 </details>
 
 ---
 
-**8) Si una persona actúa con indiferencia respecto a la posibilidad de la producción de un resultado, estamos frente a un caso de**
+**10.- Interferir un mensaje de whatsapp configura el delito de interrupción de correspondencia?**
+- Sí, porque la norma es tecnológicamente y habla de comunicaciones digitales
+- No, porque el whatsapp no existía cuando se sancionó la ley
+- Sí, porque es posible ampliar el ámbito de aplicación a casos similares
 
-- [ ] Dolo Eventual  
-- [ ] Dolo Directo  
-- [ ] Culpa con representación  
-
 <details><summary>Respuesta</summary>
+✅ Sí, porque la norma es tecnológicamente y habla de comunicaciones digitales
 
-[x] **Dolo Eventual**
+Aunque WhatsApp no existía al momento de sancionar la ley, el tipo penal está redactado de manera amplia para abarcar todas las comunicaciones electrónicas, no solo aquellas por medios tradicionales. Esto permite su aplicación a nuevas tecnologías como los servicios de mensajería instantánea.
 
-El **dolo eventual** ocurre cuando una persona **se representa la posibilidad del resultado dañoso y, aun así, actúa con indiferencia respecto a su producción**. Es decir, no busca directamente el daño, pero lo acepta como posible consecuencia de su conducta.
+El objetivo del tipo penal es proteger la confidencialidad de la comunicación, independientemente del medio técnico utilizado. Por lo tanto, interferir mensajes de WhatsApp puede constituir el delito de interrupción o captación indebida de correspondencia electrónica.
 
 </details>
 
 ---
 
-**9) Un contrato será bilateral cuando**
 
-- [ ] Las partes ocupen en forma simultánea la posición de deudor y acreedor  
-- [ ] Las obligaciones se puedan expresar en dinero  
-- [ ] Su celebración implica la participación de dos o más partes  
+**11.- La acción de obtener los datos de una persona mediante ingeniería social, por sí misma, configura el delito de**
+- Acceso no autorizado
+- Estafa informática
+- No configura un delito en sí misma
 
 <details><summary>Respuesta</summary>
+✅ No configura un delito en sí misma
 
-[x] **Las partes ocupen en forma simultánea la posición de deudor y acreedor**
+La ingeniería social consiste en manipular a una persona para que entregue información confidencial. Aunque esta práctica es éticamente cuestionable y puede ser parte de una conducta delictiva más amplia, por sí sola no configura delito según el Código Penal argentino, si no hay un perjuicio concreto ni se vulnera un sistema protegido.
 
-Un **contrato bilateral** es aquel en el que **ambas partes asumen obligaciones recíprocas**, es decir, **cada una es acreedora y deudora al mismo tiempo**. Por ejemplo, en una compraventa, el vendedor debe entregar la cosa y el comprador pagar el precio.
+Sin embargo, puede ser el medio para cometer otros delitos, como la estafa informática o el acceso indebido a un sistema, si se utiliza la información obtenida para esos fines.
 
 </details>
 
 ---
 
-**10) Si un sistema de voto electrónico no permite acceder al código fuente ¿cuál de los requisitos estudiados se vería afectado directamente?**
+**12.- El acceso no autorizado a un sistema informático se configura cuando el sistema al que se ingresa es**
+- Privado
+- Restringido
+- Cualquier sistema puede ser objeto del delito
 
-- [ ] La universalidad  
-- [ ] La seguridad  
-- [ ] La transparencia  
-
 <details><summary>Respuesta</summary>
+✅ Restringido
+
+Según la Ley 26.388, que modifica el Código Penal argentino, el delito de acceso no autorizado se configura cuando una persona ingresa sin autorización a un sistema de acceso restringido. No se penaliza el ingreso a sistemas públicos o abiertos, sino aquellos protegidos mediante claves, permisos u otras medidas de seguridad.
 
-[x] **La transparencia**
+“Será reprimido el que accediere por cualquier medio, sin autorización o excediendo la que posea, a un sistema o dato de acceso restringido.”
 
-Si no se puede acceder al código fuente de un sistema de voto electrónico, **no se puede verificar cómo funciona internamente**, lo que **afecta directamente la transparencia** del proceso electoral. La transparencia exige que tanto los ciudadanos como los especialistas puedan auditar el sistema para garantizar que funcione correctamente y sin manipulaciones.
+Por tanto, la protección penal se activa solo frente a accesos a sistemas restringidos, no a cualquier tipo de sistema.
 
 </details>
 
 ---
 
-## Recuperatorio
+**13.- Cuando alguien se desconoce la autoría de un documento firmado digitalmente**
+- Quien presenta el documento debe probar la autoría
+- Quien desconoce la autoría debe probar que no es el autor
+- No se puede usar hasta el momento de abrir el proceso a prueba
 
-**1) Un elemento definitorio de los derechos reales es**
-
-- [ ] La relación directa entre la cosa y el titular  
-- [ ] Se crean solo por ley  
-- [ ] Son oponibles a todos los sujetos  
-- [ ] Todo lo anterior  
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-40.png)
+✅ Quien desconoce la autoría debe probar que no es el autor
 
-[x] **Todo lo anterior**
+Según la Ley 25.506 de Firma Digital, la firma digital goza de una presunción de autoría e integridad. Esto significa que, si un documento está firmado digitalmente, se presume que fue firmado por el titular del certificado digital, salvo prueba en contrario.
 
-Los derechos reales se caracterizan por:
+“La firma digital se presume atribuible al titular del certificado digital, salvo prueba en contrario.” (Art. 7)
 
-* La **relación directa** entre el titular y la cosa (ej. dominio, usufructo).
-* **Se crean solo por ley**, no por la voluntad de las partes.
-* Son **oponibles a todos los sujetos** (eficacia "erga omnes").
+Por lo tanto, corresponde a quien niegue la autoría probar que no firmó dicho documento, invirtiéndose la carga probatoria respecto de los documentos con firma digital válida.
 
 </details>
 
 ---
 
-**2) La fuerza física irresistible es un vicio de**
+**14.- Según el fallo Belen Rodríguez, es necesario que un juez ordene que se bloquee el contenido si**
+- Sí es necesario para preservar la libertad de expresión
+- No. El conocimiento del ilícito se logra con la notificación extrajudicial
+- Depende si el ilícito es manifiesto o no
 
-- [ ] La libertad  
-- [ ] La intención  
-- [ ] El discernimiento  
-
 <details><summary>Respuesta</summary>
+✅ Depende si el ilícito es manifiesto o no
 
-![alt text](/images/image-41.png)
+En el fallo Belén Rodríguez, la Corte Suprema de Justicia de la Nación estableció que los buscadores solo están obligados a bloquear contenido tras ser notificados, y la intervención judicial será necesaria cuando el contenido no sea manifiestamente ilícito.
 
-[x] **La libertad**
+Cuando el contenido sea claramente ofensivo o ilegal (por ejemplo, pornografía infantil), el bloqueo puede realizarse tras una notificación extrajudicial.
+Pero si el carácter ilícito no es evidente, será necesario que un juez determine la ilegalidad para proceder al bloqueo, a fin de preservar el derecho a la libertad de expresión.
 
-**Justificación:**
-La **fuerza física irresistible** anula la libertad del sujeto para actuar, ya que lo obliga a ejecutar una acción contra su voluntad. Por eso, se considera un **vicio de la libertad**, no de la intención ni del discernimiento.
-
 </details>
 
 ---
 
-**3) Los requisitos de un instrumento público son**
+**2.- Indique en función de lo dispuesto por la ley de bancos de datos, si los siguientes son datos personales, disociados o sensibles**
 
-- [ ] La firma y la fecha cierta  
-- [ ] La firma y el doble ejemplar  
-- [ ] La fecha cierta y el doble ejemplar  
+<details><summary>Dato Personal</summary>
 
-<details><summary>Respuesta</summary>
+✅ **1. Dato Personal**
 
-![alt text](/images/image-42.png)
+**🔹 Definición (Art. 2, Ley 25.326):**
 
-[x] **La firma y la fecha cierta**
+> “Información de cualquier tipo referida a personas físicas o de existencia ideal determinadas o determinables.”
 
-Un **instrumento público** debe reunir determinados requisitos formales para ser válido, y los esenciales son:
+**🔹 Características clave:**
 
-* La **firma** del funcionario autorizado.
-* La **fecha cierta**, que le otorga autenticidad y fuerza probatoria frente a terceros.
+* Permite identificar a una persona (por sí sola o combinada con otros datos).
+* Incluye nombre, dirección, número de documento, correo electrónico, etc.
 
+**🔹 Ejemplos:**
+
+* Nombre y apellido.
+* DNI.
+* Dirección de correo electrónico.
+* Datos bancarios asociados a una persona.
+* Matrícula profesional.
+* Perfil laboral.
+
 </details>
 
----
+<details><summary>Dato Sensible</summary>
 
-**4) El software se protege por la ley**
 
-- [ ] De derechos de autor  
-- [ ] De patentes y diseños industriales  
-- [ ] De promoción de la sociedad del conocimiento  
+✅ **2. Dato Sensible**
 
-<details><summary>Respuesta</summary>
+**🔹 Definición (Art. 2, Ley 25.326):**
 
-![alt text](/images/image-43.png)
+> “Aquellos datos personales que revelan origen racial y étnico, opiniones políticas, convicciones religiosas, filosóficas o morales, afiliación sindical e información referente a la salud o a la vida sexual.”
 
-[x] **De derechos de autor**
+**🔹 Características clave:**
 
-Según la legislación argentina (Ley 11.723), el software está protegido como una obra intelectual bajo el régimen de **derechos de autor**, y no por el sistema de patentes o diseños industriales. Esta protección fue incorporada expresamente tras el fallo "Autodesk".
+* Tienen un potencial discriminatorio o afectan la privacidad más profunda.
+* Su tratamiento está fuertemente restringido.
 
-</details>
+**🔹 Ejemplos:**
 
----
+* Afiliación a un partido político o sindicato.
+* Religión declarada en una encuesta.
+* Diagnóstico médico o historia clínica.
+* Preferencias sexuales.
+* Origen étnico declarado.
 
-**5) ¿Cuáles son los requisitos comunes a todos los sistemas de sufragio según los pactos internacionales?**
+</details>
 
-- [ ] La universalidad, la igualdad y la transparencia  
-- [ ] La Universalidad, La Igualdad y La Seguridad  
-- [ ] La Universalidad, La Igualdad y el Secreto  
+<details><summary>Dato Disociado</summary>
 
-<details><summary>Respuesta</summary>
+✅ **3. Dato Disociado**
 
-![alt text](/images/image-44.png)
+**🔹 Definición (Art. 2, Ley 25.326):**
 
-[x] **La Universalidad, La Igualdad y el Secreto**
+> “Aquel que no puede ser relacionado a una persona determinada o determinable.”
 
-Los pactos internacionales de derechos humanos, como el **Pacto Internacional de Derechos Civiles y Políticos** (art. 25), establecen que todo ciudadano debe gozar del derecho al voto mediante un sistema **universal**, **igualitario** y mediante **voto secreto**, garantizando la libre expresión de la voluntad del elector.
+**🔹 Características clave:**
 
-</details>
+* Se utiliza con fines estadísticos, de investigación o análisis.
+* No permite (ni combinando con otros datos) identificar a la persona de quien proviene la información.
 
----
+**🔹 Ejemplos:**
 
-**6) La obligación de consejo se extiende a qué aspectos del proyecto**
+* Promedio de edad de una población estudiantil.
+* Consumo energético de un barrio.
+* Porcentaje de votantes por partido político en una facultad.
+* Número de personas con diabetes en una provincia (sin nombres ni documentos).
 
-- [ ] A todos los aspectos del proyecto  
-- [ ] Solo a los aspectos técnicos  
-- [ ] A los aspectos técnicos y el posible beneficio económico del proyecto  
+</details>
 
-<details><summary>Respuesta</summary>
 
-![alt text](/images/image-45.png)
+---
 
-[x] **Solo a los aspectos técnicos**
+**Registro de deudores del impuesto automotor de la Provincia de Buenos Aires**
 
-Según el análisis doctrinario y jurisprudencial, la **obligación de consejo** en los contratos informáticos recae exclusivamente sobre los **aspectos técnicos** del sistema contratado. No se extiende a evaluaciones económicas ni decisiones empresariales, ya que esas competencias corresponden al usuario o a sus asesores. Así lo reflejan tanto la jurisprudencia argentina (como en *Sistex c/Oliva*) como la francesa (como en *Cajus Face vs IBM*).
+<details><summary>Respuesta</summary>
 
+✅ Dato personal
+🔎 Justificación: Identifica a personas físicas o jurídicas en relación con una obligación fiscal. Según el art. 2 de la ley, los datos personales incluyen “cualquier información referida a personas físicas o de existencia ideal determinadas o determinables”.
 </details>
 
 ---
-
-**7) Un contrato unilateral tiene**
 
-- [ ] Una parte  
-- [ ] Por lo menos dos partes  
-- [ ] Dos partes contratantes y un tercero que es el beneficiario de la prestación acordada  
+**Padrón electoral de los afiliados al partido Unión Cívica Radical**
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-46.png)
-
-[x] **Por lo menos dos partes**
-
-Un contrato **unilateral** tiene **al menos dos partes**, ya que todo contrato requiere el acuerdo entre dos o más personas. Lo que lo distingue es que **solo una de las partes asume obligaciones**, mientras la otra no tiene carga alguna. No debe confundirse con que haya una sola parte firmante o interviniente: siempre hay dos partes, aunque una no esté obligada.
+✅ Dato sensible
+🔎 Justificación: El art. 2 considera sensible a los datos que revelan “opinión política”, lo cual se cumple con la afiliación partidaria.
 </details>
 
 ---
-
-**8) El contrato comienza a existir con**
 
-- [ ] La entrega del doble ejemplar  
-- [ ] La firma  
-- [ ] La aceptación de la oferta  
+**Promedio de edad de los alumnos de informática consignados discriminado por edad**
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-47.png)
-
-[x] **La aceptación de la oferta**
-
-Según el régimen general de los contratos, **el contrato se perfecciona cuando la oferta es aceptada** en tiempo y forma. La firma puede ser una forma de expresar esa aceptación, pero lo que da nacimiento al contrato como vínculo jurídico es el **acuerdo de voluntades**, es decir, la **aceptación de la oferta**.
+✅ Dato disociado
+🔎 Justificación: No permite identificar a personas determinadas. Se trata de información estadística agregada, lo que la excluye de la categoría de dato personal (art. 2).
 </details>
 
 ---
-
-**9) Un contrato innominado es un contrato**
 
-- [ ] Que está prohibido por la legislación vigente  
-- [ ] Que no está previsto en la legislación vigente  
-- [ ] Que tiene regulación supletoria en la legislación vigente  
+**Socio del Club Social y Deportivo Defensores del Dengue**
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-48.png)
-
-[x] **Que no está previsto en la legislación vigente**
-
-Un **contrato innominado** es aquel que **no tiene una regulación específica en la ley**, a diferencia de los contratos **nominados**, que sí están tipificados (como compraventa, locación, etc.). Sin embargo, los contratos innominados **son válidos** si respetan los principios generales del derecho contractual, y su contenido se rige por la voluntad de las partes y por normas supletorias en caso de omisiones.
-
+✅ Dato personal
+🔎 Justificación: Permite identificar a una persona física vinculada a una institución específica, sin involucrar datos sensibles.
 </details>
 
 ---
 
-**10) Según el moderno concepto de entrega, ¿cuándo se cumple con la entrega de un sistema informático?**
+**Consumos de tarjeta de crédito de Martín Karadajian, períodos 2020-2023**
 
-- [ ] Con la finalización de las pruebas de funcionamiento  
-- [ ] Con la puesta en funcionamiento  
-- [ ] Con la entrega física de los componentes  
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-49.png)
-
-[x] **Con la finalización de las pruebas de funcionamiento**
 
-Según el moderno concepto de entrega en los contratos informáticos, no basta con la entrega física ni con la instalación del sistema. **La entrega se considera cumplida cuando el sistema supera el test de aceptación**, es decir, cuando se verifica que funciona conforme a lo pactado y satisface las necesidades del usuario.
-
+✅ Dato personal
+🔎 Justificación: Está vinculado a una persona identificada (nombre completo) y revela su comportamiento económico, que entra dentro del concepto de dato personal según la ley.
 </details>
 
 ---
-
-## Autoevaluacion - Parcial de prueba
-
-**1) Un sistema de control constitucional difuso implica**
 
-- [ ] Que cualquier juez puede declarar la inconstitucionalidad  
-- [ ] Que la declaración se expande a los casos similares  
-- [ ] Que tanto el poder ejecutivo como el judicial puede declararla  
+**Consumos eléctricos del Barrio de Los Hornos expresado en Kw entre abril y junio de 2024**
 
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-50.png)
-
-[x] **Que cualquier juez puede declarar la inconstitucionalidad**
-
-En un sistema de control constitucional **difuso**, como el que rige en Argentina, **cualquier juez** tiene la facultad de declarar la inconstitucionalidad de una norma al resolver un caso concreto. Este control se da en el marco de un juicio y sus efectos se limitan a las partes (control "inter partes").
 
+✅ Dato disociado
+🔎 Justificación: Es información anónima o estadística sobre un área geográfica sin posibilidad de identificar personas físicas o jurídicas determinadas.
 </details>
 
 ---
 
-**2) La existencia del federalismo se relaciona**
+**Preferencias electorales de los alumnos de informática, expresadas en porcentuales**
 
-- [ ] Con la preexistencia de los gobiernos locales, que retienen para sí las competencias no expresamente delegadas  
-- [ ] La mayor descentralización de las facultades del estado en beneficio de los gobiernos locales  
-- [ ] La existencia de provincias en un territorio  
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-51.png)
-
-[x] **Con la preexistencia de los gobiernos locales, que retienen para sí las competencias no expresamente delegadas**
 
-El **federalismo** implica la existencia de **gobiernos locales preexistentes** (como las provincias en Argentina) que conservan autonomía y **retienen las competencias no delegadas** expresamente al gobierno nacional. Es un principio constitucional clave en sistemas federales.
-
+✅ Dato disociado
+🔎 Justificación: Son datos agregados que no permiten identificar a ningún alumno en particular, aunque refieran a una categoría sensible.
 </details>
 
 ---
 
-**3) La monarquía es una forma**
+**Historia Clínica de Juan Carlos Petete**
 
-- [ ] De nación  
-- [ ] De estado  
-- [ ] De gobierno
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-52.png)
 
-[x] **De gobierno**
+✅ Dato sensible
+🔎 Justificación: El art. 2 establece que los datos de salud son sensibles por su carácter íntimo y porque su tratamiento tiene restricciones específicas.
 
-La **monarquía** es una forma de **gobierno**, ya que se refiere a cómo se organiza el poder en un Estado. Se contrapone a otras formas como la república. En cambio, "forma de Estado" alude a la organización territorial del poder (unitario, federal), y "forma de nación" no es una categoría jurídica.
 
 </details>
 
 ---
 
-**4) La entrega del sistema se produce**
+**Afiliados de la Unión Obrera Metalúrgica, con nombre apellido y domicilio**
 
-- [ ] Cuando el mismo cumple con los test de funcionamiento  
-- [ ] Con la instalación del equipo  
-- [ ] Con la entrega física del material al cliente  
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-53.png)
-
-[x] **Cuando el mismo cumple con los test de funcionamiento**
 
-Según el enfoque moderno sobre la entrega de sistemas informáticos, **la entrega no se considera completada hasta que el sistema haya superado exitosamente las pruebas de funcionamiento**. Esto garantiza que el producto cumple con las especificaciones pactadas y es apto para su uso previsto.
-
+✅ Dato sensible
+🔎 Justificación: Además de ser datos personales, incluye la afiliación sindical, que la ley tipifica como dato sensible.
 </details>
 
 ---
 
-**5) ¿Cuál de las siguientes sería una excepción a la obligación de consejo?**
+**Miembros del Club de Fans de Lali Esposito, “Te sigo desde Rincón de Luz”**
 
-- [ ] Que el cliente sea una empresa líder en su sector  
-- [ ] El acuerdo de partes  
-- [ ] La contratación de un consultor externo por parte del cliente  
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-54.png)
 
-[x] **La contratación de un consultor externo por parte del cliente**
-
-Cuando el cliente contrata a un **consultor especializado**, se entiende que ya cuenta con el conocimiento técnico necesario para evaluar el sistema. Esto **disminuye o elimina la disparidad informativa** entre las partes, lo que a su vez **exime al proveedor de su obligación de consejo**, tal como ha sido reconocido por la jurisprudencia francesa y nacional.
-
+✅ Dato personal
+🔎 Justificación: Permite identificar a una persona (nombre del club + membresía) y no involucra una categoría sensible como religión, salud o ideología política.
 </details>
+
 
 ---
 
-**6) En un acto jurídico accesorio**
+**3.- Conteste verdadero o falso**
 
-- [ ] La desaparición del accesorio implica la desaparición del principal  
-- [ ] La desaparición del principal conlleva la del accesorio  
-- [ ] Son independientes
+**La licencia Python es la licencia oficial de la Open Source Foundation**
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-55.png)
+🔹 FALSO.
 
-[x] **La desaparición del principal conlleva la del accesorio**
+La Python Software Foundation License es una licencia aprobada por la Open Source Initiative (OSI), pero no es "la" licencia oficial de la Open Source Foundation (tampoco existe una única fundación oficial con ese nombre genérico).
 
-Un acto jurídico accesorio está subordinado al principal y **carece de autonomía propia**. Si el acto principal desaparece o se extingue, **el accesorio pierde su razón de ser y también se extingue**. Un ejemplo clásico es la fianza, que depende de un contrato principal como el de alquiler.
-
+Justificación: Existen muchas licencias aprobadas por la OSI (como MIT, BSD, Apache, GPL, LGPL), y ninguna es la “oficial”.
 </details>
 
 ---
 
-**7) La fe pública otorgada al instrumento se extiende**
+**En caso de ausencia de convención de las partes, la jurisdicción se define por el lugar de celebración del contrato**
 
-- [ ] A todo el contenido del instrumento  
-- [ ] A lo percibido por el oficial público y a las manifestaciones de las partes  
-- [ ] A lo percibido por el oficial público  
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-56.png)
 
-[x] **A lo percibido por el oficial público**
+🔹 VERDADERO.
 
-La fe pública que otorga un instrumento público se limita a lo que el oficial público **percibe por sí mismo en el acto** (por ejemplo, la presencia de las partes, sus firmas, fecha y lugar), pero **no abarca las manifestaciones o declaraciones internas de las partes** si no fueron directamente percibidas por él.
+En derecho contractual, ante la falta de cláusula de jurisdicción, rige el principio de jurisdicción por el lugar de celebración o cumplimiento del contrato.
 
+Justificación: Es una regla general del derecho civil y comercial aplicable incluso a contratos digitales o de licencias
 </details>
 
 ---
 
-**8) Un contrato unilateral tiene**
+**Las licencias Open Source pueden no tener Copy Left**
 
-- [ ] Una parte  
-- [ ] Por lo menos dos partes  
-- [ ] Dos partes contratantes y un tercero que es el beneficiario de la prestación acordada  
-
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-57.png)
+🔹 VERDADERO.
 
-[x] **Por lo menos dos partes**
+No todas las licencias open source tienen cláusulas de copyleft (obligación de mantener la misma licencia). Ejemplo: la licencia MIT no tiene copyleft.
 
-Un contrato unilateral **requiere al menos dos partes para su celebración**, ya que todo contrato implica un acuerdo entre partes. Lo que lo caracteriza como "unilateral" es que **solo una de ellas asume obligaciones**, mientras la otra no contrae ninguna.
-
+Justificación: El copyleft es una condición que aplica solo en licencias como GPL, pero no en otras permisivas como BSD o Apache.
 </details>
 
 ---
-
-**9) La fuerza física irresistible es un vicio de**
 
-- [ ] La libertad  
-- [ ] La intención  
-- [ ] El discernimiento
+**Según el fallo Belen Rodríguez la responsabilidad de los buscadores y hostings es objetiva**
 
 <details><summary>Respuesta</summary>
 
-![alt text](/images/image-58.png)
+🔹 FALSO.
 
-[x] **La libertad**
+El fallo rechaza la responsabilidad objetiva. La Corte Suprema sostuvo que la responsabilidad de los buscadores no es automática ni objetiva, y que se requiere una notificación previa que identifique con precisión el contenido ilegal.
 
-La **fuerza física irresistible** afecta la **libertad**, ya que impide que la persona actúe de manera voluntaria. Si alguien es forzado físicamente a realizar un acto, no está ejerciendo libremente su voluntad, lo que vicia el consentimiento.
-
+Justificación: Solo si el contenido es manifiestamente ilícito podrían tener responsabilidad directa sin orden judicial.
 </details>
 
 ---
 
-**10) La propiedad intelectual de un software se regula**
+**Toda licencia privativa es onerosa**
 
-- [ ] Por la ley de derechos de autor  
-- [ ] Por la ley de patentes de invención  
-- [ ] Por una ley especial creada a tal fin  
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-59.png)
 
-[x] **Por la ley de derechos de autor**
+🔹 FALSO.
 
-En Argentina, el software se encuentra protegido bajo la **Ley 11.723 de Propiedad Intelectual**, que fue modificada para incluir expresamente a los **programas de computación fuente y objeto**. Esta protección abarca tanto los derechos patrimoniales como los derechos morales del autor.
+Una licencia privativa (o propietaria) puede ser gratuita o paga, según lo establezca el titular.
 
+Justificación: El carácter "privativo" se refiere a la restricción de libertades, no al precio.
 </details>
 
 ---
 
-## Autoevaluacion - Parcial de prueba 2
+**Cuando la ley solicita que un acto se realice por escrito se puede utilizar documentos digitales**
 
-**1) La monarquía es una forma**
+<details><summary>Respuesta</summary>
 
-- [ ] De nación  
-- [ ] De estado  
-- [ ] De gobierno
+🔹 VERDADERO.
 
-<details><summary>Respuesta</summary>
+La Ley 25.506 reconoce que un documento digital puede cumplir con el requisito de “forma escrita”, siempre que se preserve su integridad y autenticidad.
 
-![alt text](/images/image-60.png)
+Justificación: El soporte electrónico satisface el requisito legal de escritura si está adecuadamente firmado y certificado.
 </details>
 
 ---
-
-**2) La existencia del federalismo se relaciona**
 
-- [ ] Con la preexistencia de los gobiernos locales, que retienen para sí las competencias no expresamente delegadas  
-- [ ] La mayor descentralización de las facultades del estado en beneficio de los gobiernos locales  
-- [ ] La existencia de provincias en un territorio
+**La firma electrónica es un sinónimo de la firma digital**
 
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-61.png)
-</details>
-
----
 
-**3) Un contrato unilateral tiene**
+🔹 FALSO.
 
-- [ ] Una parte  
-- [ ] Por lo menos dos partes  
-- [ ] Dos partes contratantes y un tercero que es el beneficiario de la prestación acordada
-
-<details><summary>Respuesta</summary>
+La firma digital es un tipo especial de firma electrónica que cumple con requisitos técnicos y legales más estrictos (como certificado de autoridad certificante).
 
-![alt text](/images/image-62.png)
+Justificación: La firma digital tiene presunción legal de autoría e integridad (Ley 25.506, Art. 7), la firma electrónica no.
 </details>
 
 ---
 
-**4) La fuerza física irresistible es un vicio de**
+**La edad máxima prevista en el delito de pornografía infantil es 16 años**
 
-- [ ] La libertad  
-- [ ] La intención  
-- [ ] El discernimiento
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-63.png)
-</details>
 
----
-
-**5) Un sistema informático se define por**
-
-- [ ] Las especificaciones técnicas  
-- [ ] Las necesidades a satisfacer  
-- [ ] El hardware entregado
+🔹 VERDADERO.
 
-<details><summary>Respuesta</summary>
+Según el Código Penal Argentino, en concordancia con compromisos internacionales (como el Protocolo de Palermo), se considera “pornografía infantil” todo material con menores de 18 años.
 
-![alt text](/images/image-64.png)
+Justificación: Aunque algunas fuentes podrían mencionar 16 años como umbral penal para otros delitos, en este caso es hasta los 18.
 </details>
 
 ---
 
-**6) Según el moderno concepto de entrega, ¿cuándo se cumple con la entrega de un sistema informático?**
+**La ley de datos personales se aplica a todo tipo de datos**
 
-- [ ] Con la finalización de las pruebas de funcionamiento  
-- [ ] Con la puesta en funcionamiento  
-- [ ] Con la entrega física de los componentes
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-65.png)
-</details>
 
----
+🔹 FALSO.
 
-**7) El contrato comienza a existir con**
+La Ley 25.326 se aplica a los datos personales (identificables). No se aplica a datos disociados ni anónimos.
 
-- [ ] La entrega del doble ejemplar  
-- [ ] La firma  
-- [ ] La aceptación de la oferta
+Justificación: El Art. 2 distingue entre datos personales, sensibles y disociados, y solo los personales/sensibles están alcanzados por la ley.
 
-<details><summary>Respuesta</summary>
 
-![alt text](/images/image-66.png)
 </details>
 
 ---
 
-**8) ¿Cuál de las siguientes características NO pertenece a las obligaciones personales?**
+**La aceptación de la licencia GPL pone en dominio público los programas que la adoptan**
 
-- [ ] Se establecen entre dos personas  
-- [ ] Implican un hacer, un dar o un omitir  
-- [ ] Se crean solo por ley
-
 <details><summary>Respuesta</summary>
-
-![alt text](/images/image-67.png)
-</details>
 
----
-
-**9) Que un sistema de control constitucional sea difuso significa**
-
-- [ ] Que un cualquier juez puede decretar la inconstitucionalidad  
-- [ ] Que los efectos de la declaración se extienden a casos similares  
-- [ ] Que el planteo se puede producir en cualquier momento del proceso
+🔹 FALSO.
 
-<details><summary>Respuesta</summary>
+La GPL no implica dominio público. El autor mantiene sus derechos de propiedad intelectual, pero permite ciertas libertades con condiciones (copyleft).
 
-![alt text](/images/image-68.png)
+Justificación: El software bajo GPL es libre, no público: su uso y modificación están permitidos solo bajo las condiciones de la licencia.
 </details>
 
 ---
-
-**10) Aparte del preámbulo el texto constitucional se divide en:**
 
-- [ ] Dos partes: Declaraciones derechos y garantías y autoridades de la nación  
-- [ ] Tres partes: Declaraciones derechos y garantías, autoridades de la nación y gobiernos provinciales  
-- [ ] Cuatro partes: Declaraciones derechos y garantías y tres correspondiendo a cada poder del estado
+## Quiz de repaso
 
-<details><summary>Respuesta</summary>
+<a href="https://wayground.com/embed/quiz/66805236a4ec5d6194697aa2">
 
-![alt text](/images/image-70.png)
-</details>
+![alt text](image-15.png)
+</a>
