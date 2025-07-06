@@ -5,6 +5,11 @@
 # Evaluaciones
 
 - [Banco de Datos](#bancos-de-datos)
+- [Licenciamiento de uso](#licenciamiento-de-uso)
+- [Derechos de Internet](#derechos-de-internet)
+- [Delitos Informáticos](#delitos-informáticos)
+- [Parcial Ideas](#parcial-ideas)
+- [Segundo Parcial Aspectos Legales - Ingeniería 2025](#segundo-parcial-aspectos-legales---ingeniería-2025)
 
 
 ## Bancos de Datos
@@ -735,7 +740,7 @@ La **autorización debe ser expresa**, informada y previa. **El consentimiento t
 
 ---
 
-## **Segundo Parcial Aspectos Legales - Ingeniería 2025**
+## Segundo Parcial Aspectos Legales - Ingeniería 2025
 
 **1. En cuál de los siguientes casos un certificado extranjero puede considerarse firma digital**
 
@@ -744,9 +749,25 @@ La **autorización debe ser expresa**, informada y previa. **El consentimiento t
 - Es licenciado en su país de origen
 
 <details><summary>Respuesta</summary>
-✅ Falso
 
-La autorización debe ser expresa, informada y previa. El consentimiento tácito no es válido según la Ley 25.326, especialmente en el tratamiento de datos personales sensibles. La ley requiere consentimiento inequívoco del titular de los datos para su recolección, almacenamiento o cesión, con conocimiento de la finalidad y uso.
+**Respuesta correcta:**  
+✔️ *Si hay un convenio de reciprocidad con el país de origen*
+
+**Justificación:**
+
+Según la **Ley 25.506 de Firma Digital**, particularmente el **Artículo 24**, un certificado digital emitido en el extranjero puede ser reconocido como válido en Argentina **solo si existe un convenio de reciprocidad** con el país emisor.
+
+> **Artículo 24.**  
+> "Los certificados emitidos en el extranjero podrán tener efectos jurídicos equivalentes a los certificados emitidos por certificadores licenciados en la República Argentina, **si existe reciprocidad reconocida por convenios suscriptos con otros Estados o con entidades internacionales**."
+
+❌ Opciones incorrectas:
+
+- **"Si cumple con los estándares técnicos establecidos en la reglamentación"**  
+  → Puede ser técnicamente válido, pero **no adquiere validez legal sin convenio de reciprocidad**.
+
+- **"Es licenciado en su país de origen"**  
+  → Estar autorizado en otro país **no es suficiente** si no existe un convenio entre dicho país y Argentina.
+
 
 </details>
 
@@ -889,7 +910,6 @@ El objetivo del tipo penal es proteger la confidencialidad de la comunicación, 
 </details>
 
 ---
-
 
 **11.- La acción de obtener los datos de una persona mediante ingeniería social, por sí misma, configura el delito de**
 - Acceso no autorizado
@@ -1127,7 +1147,9 @@ Pero si el carácter ilícito no es evidente, será necesario que un juez determ
 
 ---
 
-**Miembros del Club de Fans de Lali Esposito, “Te sigo desde Rincón de Luz”**
+**Miembros del Club de Fans de Lali Esposito, “Te sigo desde Rincón de Luz”** (La progre Lali Deposito)
+
+- [Fuente](https://tn.com.ar/politica/2024/01/26/el-gasto-de-la-politica-en-shows-bandas-que-cobran-45000000-y-municipios-que-pagan-150000000-en-un-mes/)
 
 <details><summary>Respuesta</summary>
 
@@ -1278,3 +1300,91 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 ![alt text](image-15.png)
 </a>
+
+
+----
+
+
+
+## **3.- Conteste verdadero o falso**
+
+**Linux se licencia mediante la GPL versión 3**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
+**El robo de datos personales es un delito autónomo en el derecho argentino**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
+**Las licencias Open Source pueden no tener Copy Left**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
+**El habeas data surge del art. 43 de la Constitución nacional**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
+**Toda licencia privativa es onerosa**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
+**Cuando la ley solicita que un acto se realice por escrito se puede utilizar documentos digitales**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
+**La firma electrónica es un sinónimo de la firma digital**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
+**La edad máxima prevista en el delito de pornografía infantil es 16 años**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
+**La ley de datos personales se aplica a todo tipo de datos**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
+**La aceptación de la licencia GPL pone en dominio público los programas que la adoptan**
+
+<details><summary>Respuesta</summary>
+
+</details>
+
+---
+
