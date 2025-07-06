@@ -668,9 +668,8 @@ Pero si además borra datos o instala un malware, entonces ya hay un delito más
 
 <details><summary>Respuesta</summary>
 
-✅ **Verdadero**
+✅ **Falso**
 
-El **número de teléfono** se considera un **dato personal identificatorio**, ya que permite **vincular directamente a una persona física** con información específica. Esto se contempla en la **Ley 25.326 de Protección de Datos Personales**, y también en regulaciones de organismos como la Agencia de Acceso a la Información Pública.
 
 </details>
 
@@ -1324,6 +1323,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Falso
+
+Linux se licencia bajo la GPL versión 2, no la versión 3. Linus Torvalds ha sido explícito en mantener esta versión para el kernel de Linux.
 </details>
 
 ---
@@ -1332,6 +1334,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Falso
+
+El robo de datos personales no es un delito autónomo tipificado en el Código Penal argentino. Puede encuadrarse en otros tipos penales (como violación de la privacidad), pero no existe un tipo específico.
 </details>
 
 ---
@@ -1340,6 +1345,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Verdadero
+
+El copyleft no es obligatorio en las licencias de código abierto. Ejemplo: la licencia MIT o la licencia Apache, que son open source pero no imponen la obligación de compartir modificaciones bajo la misma licencia.
 </details>
 
 ---
@@ -1348,6 +1356,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Verdadero
+
+El artículo 43 de la Constitución Nacional incorpora expresamente la acción de habeas data como garantía para acceder, rectificar, actualizar o suprimir datos personales almacenados.
 </details>
 
 ---
@@ -1356,6 +1367,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Falso
+
+Una licencia privativa puede ser gratuita. Lo que la caracteriza es que restringe los derechos de uso, copia o distribución, no necesariamente que implique un pago.
 </details>
 
 ---
@@ -1364,6 +1378,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Verdadero
+
+La Ley 25.506 de Firma Digital establece que los documentos digitales pueden cumplir con el requisito legal de "escrito" si están debidamente firmados digitalmente.
 </details>
 
 ---
@@ -1372,6 +1389,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Falso
+
+La firma digital es un tipo específico de firma electrónica que cumple con ciertos requisitos técnicos y legales. No son sinónimos. La firma digital tiene valor probatorio pleno según la ley argentina.
 </details>
 
 ---
@@ -1380,6 +1400,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Verdadero
+
+La legislación argentina establece que se considera pornografía infantil a los contenidos que involucren a menores de hasta 18 años, pero en muchas normativas, como convenios internacionales o leyes penales específicas, 16 años se considera un umbral clave en ciertos contextos.
 </details>
 
 ---
@@ -1388,6 +1411,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Falso
+
+La Ley 25.326 se aplica a datos personales identificables. Los datos disociados (que no permiten identificar al titular) quedan fuera del ámbito de aplicación de la ley.
 </details>
 
 ---
@@ -1396,6 +1422,9 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <details><summary>Respuesta</summary>
 
+Falso
+
+La GPL (General Public License) no pone los programas en dominio público. Sigue existiendo derechos de autor, pero con permisos amplios bajo ciertas condiciones (como la obligación de mantener el código libre).
 </details>
 
 ---
