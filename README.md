@@ -639,11 +639,23 @@ Esto implica que **la tenencia por sí sola ya configura un delito**, siendo una
 
 <details><summary>Respuesta</summary>
 
-✅ **Se puede configurar tanto por culpa como por dolo**
+✅ Justificación de la opción C
+📌 Texto del artículo 153 bis del Código Penal Argentino:
+“Será reprimido con prisión de quince (15) días a seis (6) meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la que posea, a un sistema o dato informático de acceso restringido.”
 
-El **delito de acceso no autorizado** está contemplado en el artículo 153 bis del Código Penal argentino. Se trata de **un delito doloso**, pero en ciertas interpretaciones doctrinarias y jurisprudenciales se ha planteado que **puede derivar de un actuar negligente o imprudente en contextos específicos**.
+🔍 ¿Qué significa que sea "subsidiario"?
+En derecho penal, un delito es subsidiario cuando solo se aplica si no hay otro delito más grave aplicable al mismo hecho. Es decir:
 
-No es exclusivo de servicios públicos, ni es subsidiario: **tiene autonomía propia como figura penal**.
+Si la conducta encaja solo en este artículo → se aplica el 153 bis.
+
+Pero si la misma conducta también constituye un delito más grave (por ejemplo, fraude informático, daño, sabotaje) → se descarta el 153 bis y se aplica el delito más severamente penado.
+
+⚖️ Aplicación práctica
+Ejemplo:
+
+Si alguien accede sin autorización a un sistema informático y solo mira información → aplica el 153 bis.
+
+Pero si además borra datos o instala un malware, entonces ya hay un delito más grave, como daño informático (art. 183, 184 CP) → en ese caso, el 153 bis no se aplica, por ser subsidiario.
 
 </details>
 
