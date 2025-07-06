@@ -1309,7 +1309,7 @@ Justificación: El software bajo GPL es libre, no público: su uso y modificaci�
 
 <a href="https://wayground.com/embed/quiz/66805236a4ec5d6194697aa2">
 
-![alt text](image-15.png)
+<img alt="Eclipse" src="image-15.png" />
 </a>
 
 
